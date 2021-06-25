@@ -1,9 +1,9 @@
 package com.example.homework88;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
    private TextView tx;
@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tx = findViewById(R.id.tvTextview);
+        tx.setText("Какашка");
 
     }
 }
